@@ -1,6 +1,7 @@
 import {Button, Flex, PinInput, PinInputField, Text,} from "@chakra-ui/react";
 import {useState} from "react";
 import {MdClose} from "react-icons/md";
+import SampleDialog from "../Modals/SimpleDialog.tsx";
 
 const Verification = () => {
 
@@ -32,6 +33,7 @@ const Verification = () => {
                     clear
                 </Button>
             </Flex>
+            <SampleDialog/>
         </Flex>
     );
 };
