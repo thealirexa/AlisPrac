@@ -4,7 +4,6 @@ import {MdClose} from "react-icons/md";
 import SampleDialog from "../Modals/SimpleDialog.tsx";
 
 const Verification = () => {
-
     const [pin, setPin] = useState("")
 
     const onChange = (pin: string) => {
