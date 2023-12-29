@@ -1,8 +1,10 @@
 import {createBrowserRouter} from "react-router-dom";
 import Layout from "./Layout.tsx";
-import Products from "./Pages/Products.tsx";
-import Users from "./Pages/Users.tsx";
-import Verification from "./Pages/Verification.tsx";
+import {lazy} from "react";
+
+const Products = lazy(() => import("./Pages/Products"));
+const Users = lazy(() => import("./Pages/Users"));
+const Verification = lazy(() => import("./Pages/Verification"));
 
 export const AppRouter = createBrowserRouter([
     {
