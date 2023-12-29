@@ -1,0 +1,23 @@
+# Dependency directories
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build output
+/dist
+
+# VCS files
+.git/
+.gitignore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/Editors files
+.vscode/
+.idea/
+
+# Logs
+logs
+*.log
